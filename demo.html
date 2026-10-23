@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TekunoAI Products and Live MVP Demos</title>
+<style>
+  body { font-family: system-ui, Arial, sans-serif; margin: 0; background: #0b1020; color: #e8eaf2; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font-size: 32px; margin: 0 0 8px; }
+  h2 { font-size: 22px; margin: 0 0 8px; }
+  p { line-height: 1.55; color: #c6cadb; }
+  .tag { display: inline-block; background: #1d2a52; color: #9fc0ff; border-radius: 999px; padding: 3px 10px; font-size: 12px; margin-bottom: 10px; }
+  .card { background: #121830; border: 1px solid #24306b; border-radius: 14px; padding: 22px; margin: 18px 0; }
+  .result { background: #0a2e22; border: 1px solid #146c4c; color: #a9f0cd; border-radius: 10px; padding: 12px 14px; font-family: ui-monospace, Menlo, monospace; font-size: 14px; white-space: pre-wrap; }
+  a { color: #7ab3ff; }
+  .muted { color: #8b91a7; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="tag">TekunoAI · San Diego, CA</span>
+  <h1>TekunoAI Products</h1>
+  <p>TekunoAI builds AI native digital products. Every product below is an MVP prototype in active development, with working code, automated tests and a repeatable demo. Founder: Raghav Shah · Contact: rshah@tekunoai.com · Code: <a href="https://github.com/tekunoaihq">github.com/tekunoaihq</a></p>
+
+  <div class="card">
+    <span class="tag">Flagship</span>
+    <h2>AI Agent Universe</h2>
+    <p>A two way AI agent universe where a user's buyer agent and a seller agent discover, compare, negotiate and complete a purchase within the user's budget and approval rules. The buyer agent never exceeds the user's max budget and the seller agent never goes below its floor price.</p>
+    <div class="result">Verified demo: headphones listed at $120 (floor $80), buyer target $70, budget $100
+Result: DEAL closed at $94 after 2 rounds, inside budget and above floor.
+Second run: premium watch listed at $500 (floor $450) vs buyer budget $300
+Result: correct WALK AWAY, no deal forced.
+Tests: 5 passing</div>
+    <p><a href="https://github.com/tekunoaihq/tekunoai-agent-universe">github.com/tekunoaihq/tekunoai-agent-universe</a></p>
+  </div>
+
+  <div class="card">
+    <span class="tag">Product 2</span>
+    <h2>AISDLC Management System</h2>
+    <p>AI agents coordinate the software development lifecycle: requirements, design, development, testing, review, deployment and monitoring, with quality gates that block a task when acceptance criteria or required checks are missing.</p>
+    <div class="result">Verified demo: 3 tasks completed through all 7 SDLC phases, 100 percent completion.
+A blocked example correctly stops at the requirements gate for missing acceptance criteria.
+Tests: 11 passing</div>
+    <p><a href="https://github.com/tekunoaihq/tekunoai-aisdlc">github.com/tekunoaihq/tekunoai-aisdlc</a></p>
+  </div>
+
+  <div class="card">
+    <span class="tag">Product 3</span>
+    <h2>AI Powered Event Management</h2>
+    <p>AI assisted event planning: schedule generation, vendor and attendee management, and live budget tracking that warns before spend crosses the event budget.</p>
+    <div class="result">Verified demo: budget $12,000, committed spend $9,250, remaining $2,750, utilisation 77.08 percent, not over budget.
+Tests: 15 passing</div>
+    <p><a href="https://github.com/tekunoaihq/tekunoai-event-management">github.com/tekunoaihq/tekunoai-event-management</a></p>
+  </div>
+
+  <p class="muted">Built on open source, with credit: TekunoAI also maintains transparent forks of Microsoft Agent Framework (MIT), SWE-agent (MIT) and Attendize on GitHub, original authors and licenses preserved. This page lists prototypes honestly: no customers, revenue or funding are claimed.</p>
+</div>
+</body>
+</html>
